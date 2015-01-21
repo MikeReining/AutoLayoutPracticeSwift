@@ -19,7 +19,31 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDG-or-D9c">
                                 <rect key="frame" x="-4" y="0.0" width="608" height="620"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wvj-ET-Y4e">
+                                        <rect key="frame" x="442" y="20" width="146" height="46"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zWx-0m-XHg">
+                                                <rect key="frame" x="89" y="8" width="50" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.62024182497275249" blue="0.10458236992685455" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ld9-OU-rNg">
+                                                <rect key="frame" x="8" y="8" width="73" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.62024182500000002" blue="0.1045823699" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="bT9-4D-vY4"/>
+                                            <constraint firstAttribute="width" constant="146" id="noV-J2-ZYb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="0.054560846895277959" green="1" blue="0.13540112811241289" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Wvj-ET-Y4e" secondAttribute="trailing" constant="20" id="IK4-bm-BAO"/>
+                                    <constraint firstItem="Wvj-ET-Y4e" firstAttribute="top" secondItem="NDG-or-D9c" secondAttribute="top" constant="20" id="KcR-98-3He"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
