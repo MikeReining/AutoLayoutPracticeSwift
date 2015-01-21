@@ -45,17 +45,66 @@
                                             <constraint firstAttribute="height" constant="50" id="gCa-M9-Du2"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpg-Ra-HWQ">
+                                        <rect key="frame" x="279" y="110" width="50" height="400"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-vo-GLi">
+                                                <rect key="frame" x="0.0" y="175" width="50" height="50"/>
+                                                <color key="backgroundColor" red="0.26695849999999999" green="0.452755835" blue="0.86349354619999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="bLG-Va-pMM"/>
+                                                    <constraint firstAttribute="width" constant="50" id="y0I-Uj-7QF"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20b-Hl-JWA">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <color key="backgroundColor" red="0.26695849999999999" green="0.452755835" blue="0.86349354619999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="5Ia-uV-CVM"/>
+                                                    <constraint firstAttribute="height" constant="50" id="7Yz-fQ-zJ3"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="swM-3n-sYK">
+                                                <rect key="frame" x="0.0" y="350" width="50" height="50"/>
+                                                <color key="backgroundColor" red="0.26695849999999999" green="0.452755835" blue="0.86349354619999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="AtB-fg-IBS"/>
+                                                    <constraint firstAttribute="width" constant="50" id="XGS-HV-1wK"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="swM-3n-sYK" secondAttribute="bottom" id="CTM-7E-b5Q"/>
+                                            <constraint firstAttribute="centerX" secondItem="swM-3n-sYK" secondAttribute="centerX" id="CiM-EE-Cp5"/>
+                                            <constraint firstAttribute="centerX" secondItem="20b-Hl-JWA" secondAttribute="centerX" id="Ocn-7M-TPI"/>
+                                            <constraint firstItem="20b-Hl-JWA" firstAttribute="top" secondItem="mpg-Ra-HWQ" secondAttribute="top" id="Ztn-ts-HH1"/>
+                                            <constraint firstAttribute="centerX" secondItem="EUT-vo-GLi" secondAttribute="centerX" id="iLL-H3-yeV"/>
+                                            <constraint firstAttribute="width" constant="50" id="kCE-AC-lNE"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.054560846895277959" green="1" blue="0.13540112811241289" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="6Ha-jF-TgO" secondAttribute="bottom" constant="40" id="3fv-BM-Hki"/>
+                                    <constraint firstAttribute="centerY" secondItem="mpg-Ra-HWQ" secondAttribute="centerY" id="75R-2K-FPp"/>
+                                    <constraint firstItem="mpg-Ra-HWQ" firstAttribute="top" secondItem="NDG-or-D9c" secondAttribute="top" constant="110" id="82T-PH-dA1">
+                                        <variation key="heightClass=compact" constant="50"/>
+                                    </constraint>
                                     <constraint firstAttribute="trailing" secondItem="6Ha-jF-TgO" secondAttribute="trailing" constant="20" id="AYt-JI-V63"/>
                                     <constraint firstAttribute="trailing" secondItem="Wvj-ET-Y4e" secondAttribute="trailing" constant="20" id="IK4-bm-BAO"/>
-                                    <constraint firstItem="Wvj-ET-Y4e" firstAttribute="top" secondItem="NDG-or-D9c" secondAttribute="top" constant="20" id="KcR-98-3He"/>
+                                    <constraint firstItem="Wvj-ET-Y4e" firstAttribute="top" secondItem="NDG-or-D9c" secondAttribute="top" constant="20" id="KcR-98-3He">
+                                        <variation key="heightClass=compact" constant="40"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="mpg-Ra-HWQ" secondAttribute="bottom" constant="110" id="b0e-1o-1dR">
+                                        <variation key="heightClass=compact" constant="50"/>
+                                    </constraint>
+                                    <constraint firstItem="EUT-vo-GLi" firstAttribute="centerY" secondItem="NDG-or-D9c" secondAttribute="centerY" id="krP-cO-tzJ"/>
                                     <constraint firstItem="6Ha-jF-TgO" firstAttribute="leading" secondItem="NDG-or-D9c" secondAttribute="leading" constant="130" id="m0n-pn-1vw">
                                         <variation key="heightClass=compact" constant="220"/>
-                                        <variation key="heightClass=regular-widthClass=regular" constant="450"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
                                     </constraint>
+                                    <constraint firstAttribute="centerX" secondItem="mpg-Ra-HWQ" secondAttribute="centerX" id="wZJ-Ws-tEt"/>
                                 </constraints>
                             </view>
                         </subviews>
