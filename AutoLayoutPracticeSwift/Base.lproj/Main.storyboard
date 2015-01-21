@@ -38,11 +38,24 @@
                                             <constraint firstAttribute="width" constant="146" id="noV-J2-ZYb"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ha-jF-TgO">
+                                        <rect key="frame" x="130" y="530" width="458" height="50"/>
+                                        <color key="backgroundColor" red="0.43137258290000002" green="0.37647062539999998" blue="0.61568629740000003" alpha="1" colorSpace="deviceRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="gCa-M9-Du2"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.054560846895277959" green="1" blue="0.13540112811241289" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="6Ha-jF-TgO" secondAttribute="bottom" constant="40" id="3fv-BM-Hki"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Ha-jF-TgO" secondAttribute="trailing" constant="20" id="AYt-JI-V63"/>
                                     <constraint firstAttribute="trailing" secondItem="Wvj-ET-Y4e" secondAttribute="trailing" constant="20" id="IK4-bm-BAO"/>
                                     <constraint firstItem="Wvj-ET-Y4e" firstAttribute="top" secondItem="NDG-or-D9c" secondAttribute="top" constant="20" id="KcR-98-3He"/>
+                                    <constraint firstItem="6Ha-jF-TgO" firstAttribute="leading" secondItem="NDG-or-D9c" secondAttribute="leading" constant="130" id="m0n-pn-1vw">
+                                        <variation key="heightClass=compact" constant="220"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="450"/>
+                                    </constraint>
                                 </constraints>
                             </view>
                         </subviews>
